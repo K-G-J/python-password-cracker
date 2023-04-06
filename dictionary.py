@@ -15,9 +15,9 @@ for word in p_file:
     digest = hash_word.hexdigest()
 
     if digest == i_hash:
-        print(f"Password found : {word}")
+        print(f"\nPassword found : {word}")
         pass_found = True
         break
 
 if not pass_found:
-    print("Password not found")
+    print("\nPassword not found")
